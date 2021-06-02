@@ -46,7 +46,7 @@ body {
 .btn_menu {
     margin-right: 30px;
     font-size: 40px;
-    color: white;
+    color: rgb(255, 0, 0);
     cursor: pointer;
     display: none;
 }

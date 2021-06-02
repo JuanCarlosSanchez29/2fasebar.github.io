@@ -52,213 +52,60 @@ body {
 }
 
 
-/* IMAGEN PRINCIPAL */
+/* SOBRE NOSOTROS */
 
-.pic-1-div img {
-    width: 100%;
-    height: 91%;
-    object-fit: cover;
-    margin-top: 0px;
+.contenedor-about-general {
+    background-color: rgb(255, 252, 248)
 }
 
-.span-1 {
-    padding: 20px;
+.contenedor-title h1 {
+    text-decoration: 5px underline black;
+    text-align: center;
+    font-size: 70px;
+    font-family: 'Oswald', sans-serif;
 }
 
-
-/* RESERVAS */
-
-.contenedor-reservas {
-    border-bottom: 5px solid rgb(255, 242, 214);
-    padding: 30px;
-    margin-bottom: 40px;
-    background-color: #1d2021
+.hr-about {
+    margin: 30px 50px;
 }
 
-.contenedor-reservas article {
+.contenedor-grid {
     display: grid;
     grid-template-columns: repeat(2, 1fr);
 }
 
-.contenedor-hs {
-    color: white;
+.conetenedor-textos {
+    justify-content: center;
     text-align: center;
+    padding: 50px;
 }
 
-.contenedor-hs h1 {
-    font-size: 50px;
-    margin: 25px;
+.conetenedor-textos p {
+    font-family: 'Oswald', sans-serif;
+    font-size: 35px;
 }
 
-.contenedor-hs h2 {
-    font-size: 30px;
-    margin: 25px 50px;
-}
-
-.btn-reserva {
-    cursor: pointer;
-    transition: all 300ms;
-    border: 3px solid rgb(250, 243, 215);
-    background-color: transparent;
-    padding: 25px 40px;
-    margin: 20px;
-}
-
-.btn-reserva-a {
-    color: rgb(212, 208, 208);
-    font-size: 25px;
-    text-decoration: none;
-    font-weight: 700;
-}
-
-.btn-reserva:hover {
-    box-shadow: 0px 0px 25px 0px black;
-    transform: scale(1.1);
-    transition: all 300ms;
-}
-
-.btn-reserva:hover a {
-    color: rgb(194, 29, 0);
-}
-
-.img-article-reserva {
-    width: 100%;
-    height: 100%;
-    object-fit: cover;
-    border: 2px solid black;
-    box-shadow: 0px 0px 20px 0px black;
-}
-
-
-/* FOLLOW US REDES SOCIALES*/
-
-.contenedor-grid {
-    display: grid;
-    grid-template-columns: repeat(3, 1fr);
-}
-
-.contenedor-grid article {
-    color: rgb(255, 253, 246);
+.contenedor-about-img {
     text-align: center;
-    margin: auto;
-}
-
-.contenedor-article {
-    transition: all 300ms;
-    box-shadow: 0px 0px 20px 0px black;
-    margin: 20px 50px;
-}
-
-.contenedor-article:hover {
-    transform: scale(1.03);
-    transition: all 300ms;
-}
-
-.contenedor-article article {
-    margin: 30px 50px;
-}
-
-.contenedor-article h1 {
-    margin: 20px;
-}
-
-.contenedor-article h2 {
-    font-size: 20px;
-}
-
-.insta-logo {
-    width: 200px;
-}
-
-.twitter-logo {
-    width: 200px;
-}
-
-.face-logo {
-    width: 112.5px;
-}
-
-.btn-redes-a {
-    font-size: 20px;
-    font-weight: 700;
-    text-decoration: none;
-    color: rgb(255, 255, 255);
-}
-
-.btn-redes {
-    cursor: pointer;
-    background: rgb(63, 63, 63);
-    transition: all 300ms;
-    margin: 25px;
-    border: 2px solid rgb(255, 246, 216);
-    padding: 20px;
-    text-decoration: none;
-    color: rgb(252, 255, 236);
-}
-
-.btn-redes:hover {
-    border: 2px solid rgb(0, 0, 0);
-    transition: all 300ms;
-    transform: scale(1.2);
-    background-color: rgb(255, 255, 255);
-    box-shadow: 0px 0px 20px 0px black;
-}
-
-.btn-redes:hover a {
-    color: black;
-}
-
-
-/* FOTOGALERIA */
-
-.hr-fotogaleria {
-    border-radius: 50px;
-    border: 3px solid rgb(255, 0, 0);
-    margin: 20px 55px;
-}
-
-.contenedor-fotogaleria {
-    margin: 25px;
-    text-align: center;
-    display: grid;
-    grid-template-columns: repeat(3, 1fr);
-}
-
-.contenedor-imagenes-fotogaleria {
-    margin: 10px;
-}
-
-.contenedor-imagenes-fotogaleria img {
-    box-shadow: 0px 0px 10px 0px rgb(0, 0, 0);
-    border-radius: 5px;
     width: 100%;
 }
 
-.btn-vercarta {
-    margin: auto;
-    transition: all 300ms;
-    background-color: transparent;
-    border: 3px solid rgb(255, 255, 255);
-    padding: 25px;
+.contenedor-textos-img p {
+    font-family: 'Oswald', sans-serif;
+    font-size: 35px;
 }
 
-.btn-vercarta-a {
-    font-size: 20px;
-    font-weight: 800;
-    text-decoration: none;
-    color: white;
+.contenedor-about-img img {
+    width: 100%;
 }
 
-.btn-vercarta:hover {
-    background-color: rgb(29, 29, 29);
-    box-shadow: 0px 0px 20px 0px black;
-    transition: all 300ms;
-    transform: scale(1.05);
+.img-movil {
+    width: 30%;
+    display: none;
 }
 
-.contenedor-boton {
-    margin-bottom: 50px;
-    text-align: center;
+.img-movil-div {
+    display: none;
 }
 
 
@@ -291,13 +138,14 @@ body {
 .contenedor-footer {
     margin: auto;
     justify-content: space-between;
-    background-color: rgb(255, 255, 255);
+    background-color: transparent;
     display: grid;
     border-top: 7px solid rgb(187, 186, 186);
     grid-template-columns: repeat(3, 1fr);
 }
 
 .contenedor-footer-about {
+    color: rgb(255, 253, 239);
     margin: 70px;
     text-align: center;
     font-size: 20px;
@@ -308,14 +156,14 @@ body {
 }
 
 .btn-about {
-    border: 2px solid black;
+    border: 2px solid rgb(255, 255, 255);
     background-color: transparent;
     margin: 20px 0px;
     padding: 10px;
 }
 
 .btn-about a {
-    color: black;
+    color: rgb(255, 255, 255);
     font-size: 15px;
     text-decoration: none;
 }
@@ -338,20 +186,51 @@ body {
 }
 
 .contenedor-footer-media a {
-    color: black;
+    color: rgb(224, 224, 224);
     font-weight: 600;
     text-decoration: none;
     margin: 10px;
 }
 
 .contenedor-footer-mapa iframe {
-    border: 1px solid black;
+    border: 1px solid rgb(204, 204, 204);
     margin: 20px;
     width: 90%;
     height: 90%;
 }
 
+#icon-footer {
+    color: white;
+}
+
 @media only screen and (max-width: 1400px) {
+    .contenedor-grid {
+        display: block;
+    }
+    .conetenedor-textos {
+        padding: 20px;
+    }
+    .img-movil-div {
+        text-align: center;
+        display: block;
+        text-align: center;
+        width: 100%;
+    }
+    .conetenedor-textos p {
+        font-size: 25px;
+    }
+    .contenedor-about-img p {
+        font-size: 25px;
+    }
+    .img-movil {
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+        width: 40%;
+    }
+    .img-pc {
+        display: none;
+    }
     .contenedor-footer-about {
         margin: 20px;
     }
